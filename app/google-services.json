@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "704398633854",
+    "project_id": "tinkerer-s-hackathon",
+    "storage_bucket": "tinkerer-s-hackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704398633854:android:06b29296b2835a2ae9212f",
+        "android_client_info": {
+          "package_name": "com.example.tinkerershackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704398633854-6esfn9raocvsb3d7c37u0b66e80br4bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFdyKlM_6I3znUN9L1Vb5k9VtO0z6XvKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704398633854-6esfn9raocvsb3d7c37u0b66e80br4bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

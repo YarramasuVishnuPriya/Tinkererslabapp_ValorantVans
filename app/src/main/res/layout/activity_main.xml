@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackgroundFloating"
+    android:backgroundTint="@color/white"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/directtologin"
+        android:layout_width="194dp"
+        android:layout_height="70dp"
+        android:background="#3E6200EA"
+        android:text="Login/SignUp"
+        android:textColor="#090909"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconTint="#050505"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="396dp"
+        android:layout_height="535dp"
+        android:alpha="0.9"
+        android:background="@color/design_default_color_background"
+        app:srcCompat="@drawable/tink"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-36dp"
+        tools:srcCompat="@drawable/circuits" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="88dp"
+        android:layout_height="156dp"
+        app:srcCompat="@drawable/tinklogo"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
